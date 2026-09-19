@@ -59,7 +59,7 @@ export default function Scrapping() {
     {
       title: "Spectrometer",
       desc: "Quality is guaranteed through advanced science. We utilize high-precision Optical Emission Spectrometry (OES) to conduct rapid and accurate elemental analysis of our alloys. By exciting metal samples with a high-energy spark, our spectrometer identifies the chemical fingerprint of the melt, providing a detailed breakdown of elements like Carbon, Silicon, Manganese, and Chromium.",
-      image: "/assets/img19.jpeg",
+      image: "/assets/img19.jpg",
     },
     {
       title: "Warehouse Management",
@@ -74,7 +74,7 @@ export default function Scrapping() {
     {
       title: "Magnetic Lifting",
       desc: "Utilizing high-intensity industrial electromagnets to safely lift and transfer large volumes of scrap metal, ingots, billets, and other products. This system eliminates the need for manual strapping, dramatically accelerating sorting efficiency and improving operational safety.",
-      image: "/assets/img18.jpeg",
+      image: "/assets/img18.jpg",
     },
     {
       title: "Weighing Scale",

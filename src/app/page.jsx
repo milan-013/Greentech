@@ -89,7 +89,7 @@ export default function Home() {
     },
     {
       title: "Spectrometer",
-      image: "/assets/img19.jpeg",
+      image: "/assets/img19.jpg",
     },
     {
       title: "Warehouse Management",
@@ -97,7 +97,7 @@ export default function Home() {
     },
     {
       title: "Crane Facility",
-      image: "/assets/img18.jpeg",
+      image: "/assets/img18.jpg",
     },
     {
       title: "Magnetic Lifting",
