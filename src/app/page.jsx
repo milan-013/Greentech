@@ -270,6 +270,7 @@ export default function Home() {
                 src={slide.image}
                 fill
                 priority={index === 0}
+                loading={index === 0 ? "eager" : "lazy"}
                 sizes="100vw"
               />
               <div className="absolute inset-0 flex items-center justify-center text-center px-6">
@@ -426,8 +427,8 @@ export default function Home() {
               <div
                 key={index}
                 className={`institutional-card p-5 justify-between ${index === complianceCerts.length - 1 && complianceCerts.length % 3 === 1
-                    ? "md:col-start-2"
-                    : ""
+                  ? "md:col-start-2"
+                  : ""
                   }`}
               >
                 <div className="bg-surface-container-lowest h-48 mb-4 flex flex-col justify-center items-center text-center p-4 relative border border-outline-variant/30">

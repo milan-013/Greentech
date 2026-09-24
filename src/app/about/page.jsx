@@ -89,7 +89,7 @@ export default function AboutPage() {
       tag: "Infrastructure",
       value: "In-House",
       title: "Advanced Facilities",
-      subtitle: "Processing, Shearing & Baling",
+      subtitle: "Processing, Shearing, Bundling & Scrapping",
     },
     {
       icon: "verified_user",
@@ -97,7 +97,7 @@ export default function AboutPage() {
       tag: "Assurance",
       value: "100%",
       title: "Verified Standards",
-      subtitle: "Certified Industrial Compliance",
+      subtitle: "Certified Industrial and Trading Compliance",
     },
   ];
 
