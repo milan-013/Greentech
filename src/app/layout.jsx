@@ -15,7 +15,10 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://greentechminerals.com"),
+  metadataBase: new URL("https://www.greentechmineralpvtltd.com"),
+  alternates: {
+    canonical: "/",
+  },
   title: {
     default: "Green Tech Minerals | Industrial Scrap Processing & B2B Iron Trading",
     template: "%s | Green Tech Minerals",
@@ -39,7 +42,7 @@ export const metadata = {
   openGraph: {
     type: "website",
     locale: "en_IN",
-    url: "https://greentechminerals.com",
+    url: "https://www.greentechmineralpvtltd.com",
     title: "Green Tech Minerals | Industrial Scrap Processing & B2B Iron Trading",
     description: "Reliable metal recycling, scrap trading, and sustainable material processing since 2000. Serving key industrial hubs across Eastern and Central India.",
     siteName: "Green Tech Minerals",
@@ -61,12 +64,34 @@ export const metadata = {
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
   },
 };
 
 export const viewport = {
   width: "device-width",
   initialScale: 1,
+};
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Green Tech Minerals Pvt Ltd",
+  url: "https://www.greentechmineralpvtltd.com",
+  logo: "https://www.greentechmineralpvtltd.com/assets/logo.jpeg",
+  description: "High-volume industrial scrap processing, metallurgical grading accuracy, and optimized feedstock logistics for steel mills and foundry procurement managers across India.",
+  email: "greentechminerals007@gmail.com",
+  address: {
+    "@type": "PostalAddress",
+    addressCountry: "IN",
+  },
+  sameAs: [],
 };
 
 export default function RootLayout({ children }) {
@@ -77,6 +102,10 @@ export default function RootLayout({ children }) {
     >
       <head>
         <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
       </head>
       <body className="min-h-full flex flex-col bg-surface text-on-surface font-sans">
         <Navbar />

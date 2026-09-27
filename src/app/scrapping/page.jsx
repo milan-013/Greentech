@@ -7,8 +7,11 @@ export const metadata = {
   openGraph: {
     title: "Scrap Processing & Facilities | Green Tech Minerals",
     description: "Advanced industrial scrap processing operations: high-tonnage shears, slag crushers, yield induction testing, spectrometry analysis, and heavy logistics facilities.",
-    url: "https://greentechminerals.com/scrapping",
+    url: "https://www.greentechmineralpvtltd.com/scrapping",
     images: [{ url: "/assets/img1.jpg", width: 1200, height: 630, alt: "Scrap Processing Machinery" }],
+  },
+  alternates: {
+    canonical: "/scrapping",
   },
 };
 

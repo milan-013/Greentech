@@ -8,8 +8,11 @@ export const metadata = {
   openGraph: {
     title: "About Us | Green Tech Minerals",
     description: "Reliable metal recycling, scrap trading, and sustainable material processing since 2000. Serving key industrial hubs across Eastern and Central India.",
-    url: "https://greentechminerals.com/about",
+    url: "https://www.greentechmineralpvtltd.com/about",
     images: [{ url: "/assets/Ranchi.jpg", width: 1200, height: 630, alt: "Green Tech Minerals Facilities" }],
+  },
+  alternates: {
+    canonical: "/about",
   },
 };
 

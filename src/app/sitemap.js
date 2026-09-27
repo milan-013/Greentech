@@ -1,5 +1,5 @@
 export default function sitemap() {
-  const baseUrl = "https://greentechminerals.com";
+  const baseUrl = "https://www.greentechmineralpvtltd.com";
   return [
     {
       url: baseUrl,

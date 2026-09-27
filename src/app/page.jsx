@@ -23,6 +23,7 @@ const productMapping = {
   "Coal": "HMS 2",
   "Supply Chain": "Shredded",
   "M S Scrap": "HMS 1",
+  "Melting & Casting Scrap": "HMS 1",
   "Mill Scale": "Shredded"
 };
 
@@ -151,8 +152,8 @@ export default function Home() {
       image: "/assets/coke.jpg",
     },
     {
-      title: "M S Scrap",
-      image: "/assets/msscrap.jpg",
+      title: "Melting & Casting Scrap",
+      image: "/assets/image.jpg",
     },
     {
       title: "Mill Scale",

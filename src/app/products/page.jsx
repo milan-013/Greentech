@@ -68,11 +68,11 @@ export default function Products() {
       desc: "High-purity metallurgical coke optimized for intense thermal efficiency and superior smelting yields. By maintaining premier supply channels across our global refining network, we secure direct access to clean, low-ash carbon streams. This ensures your blast furnaces and cupolas receive premium-grade fuel with high fixed carbon and minimal sulfur content, allowing us to pass on the best wholesale commercial rates in the market.",
     },
     {
-      title: "M S Scrap",
+      title: "Melting & Casting Scrap",
       category: "HMS 1",
-      image: "/assets/msscrap.jpg",
+      image: "/assets/image.jpg",
       desc: "Heavy Melting Steel (HMS 1 & HMS 2) processed to strict dimensional and thickness specifications. Cleared of non-ferrous attachments and corrosion to provide dense, high-yield charge material for induction and electric arc furnaces.",
-      },
+    },
     {
       title: "Mill Scale",
       category: "OXIDES",
